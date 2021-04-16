@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/*
+======
+Variables
+======
+*/
+:root {
+  --mainGreen: #476a2e;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #979797;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  background: var(--mainWhite);
+  height: 103px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid var(--mainGreen);
+  box-shadow: var(--lightShadow);
+}
+
+.header-title {
+  font-family: Open Sans;
+  width: 295px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  margin-left: 60px;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding: 50px;
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.grid-container {
+  display: inline-grid;
+  margin-left: 59px;
+  grid-column-gap: 50px;
+  margin-top: 38px;
+}
+
+.container {
+  position: relative;
+  display: block;
+}
+
+.icon-heart {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.image {
+  height: 280px;
+  width: 315px;
+  left: 773px;
+  top: 79px;
+  border-radius: 4px;
+}
+
+.property-info {
+  width: 301px;
+  height: 32px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: var(--mainBlack);
+}
+
+.listing-price {
+  width: 112px;
+  height: 24px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: var(--mainBlack);
+}
+
+.address {
+  width: 301px;
+  height: 32px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  ccolor: var(--mainBlack);
+  margin-top: 10px;
+}
+
+.listing-date {
+  width: 301px;
+  height: 32px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: var(--mainGrey);
+}
