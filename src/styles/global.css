@@ -118,7 +118,7 @@ code {
   line-height: 18px;
   display: flex;
   align-items: center;
-  ccolor: var(--mainBlack);
+  color: var(--mainBlack);
   margin-top: 10px;
 }
 
